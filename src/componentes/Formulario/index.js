@@ -20,6 +20,10 @@ const Formulario = ({aoCadastrar, times}) => {
             imagem,
             time
         })
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     return (
